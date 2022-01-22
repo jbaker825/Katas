@@ -11,4 +11,17 @@ String will never be empty and you do not need to account for different data typ
         return arr[0].length
     }
 
-____________________________________________________________________________________
+___________________________________________________________________________
+
+    (8 kyu) Reversed Strings
+
+Complete the solution so that it reverses the string passed into it.    
+
+'world'  => 'dlrow'
+'word'   => 'drow'_________________
+
+Solution:
+
+function solution(str) {
+    return str.split('').reverse().join('')
+}
